@@ -1,10 +1,10 @@
 body {
     font-family: sans-serif;
-    background-color:grey;
+    background-color:blue;
     margin-top: 60px;
 }
 html{
-    background:#222;
+    background:pink;
 }
 .row {
     text-align:left;
