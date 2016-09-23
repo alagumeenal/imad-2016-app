@@ -1,11 +1,13 @@
 body {
     font-family: sans-serif;
-    background-color: lightblue;
+    background-color:grey;
     margin-top: 60px;
 }
-
+html{
+    background:#222;
+}
 .row {
-    text-align: center;
+    text-align:
 }
 
 .text-big {
