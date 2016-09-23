@@ -35,7 +35,15 @@ html{
 }
 .p1{
     font-weight: bold;
+    text-align:center;
     font-style:italic;
     color:darkgreen;
+    
+}
+.p2{
+    font-weight: bold;
+    text-align:center;
+    font-style:italic;
+    color:darkgray;
     
 }
