@@ -8,6 +8,9 @@ html{
 }
 .row {
     text-align:left;
+    color:red;
+    font-weight:bold;
+    font-size:20px;
 }
 
 .text-big {
@@ -26,5 +29,9 @@ html{
 }
 .row1{
     text-align:center;
+    color:red;
+    font-weight:bold;
+    font-size:20px;
+    
 }
 
