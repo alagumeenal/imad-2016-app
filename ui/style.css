@@ -44,6 +44,11 @@ html{
     font-weight: bold;
     text-align:center;
     font-style:italic;
-    color:darkgray;
+    color:darkred;
     
+}
+.h1{
+    font-weight:bold;
+    font-size::50px;
+    text-align:center;
 }
