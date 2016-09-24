@@ -18,6 +18,41 @@ var articleone={
             </p>'
 };
 var htmltemplate='
+
+<html>
+    <head>
+        <title>
+            Article one I ALAGUMEENAL
+        </title>
+            <meta name="viewport" content="width-device-width,initial-scale=1"/>
+            <link href="/ui/style.css" rel="stylesheet" />
+            <style>
+           
+            </style>
+     </head>
+    <body>
+        <div class="container">
+        <div>
+            <a href="/">Home</a>
+        </div>
+        <hr/>
+        <div>ARTICLE-ONE</div>
+        <div>
+            <p>
+                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
+            </p>
+             <p>
+                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
+            </p>
+              <p>
+                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
+            </p>
+             
+        </div>
+        </div>
+     </body>
+</html>
+
 ';
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
