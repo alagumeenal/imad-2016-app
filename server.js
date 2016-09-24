@@ -17,7 +17,7 @@ var articleone={
                 This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
             </p>'
 };
-function createFunction()
+function createTemplate(data){
 var htmltemplate='
 
 <html>
