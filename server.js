@@ -4,7 +4,19 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-
+var content={
+    title: 'Article one I ALAGUMEENAL'
+    heading:'article-one'
+    content: <p>
+                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
+           </p>
+             <p>
+                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
+            </p>
+          <p>
+                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
+            </p>'
+}
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
