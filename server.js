@@ -18,6 +18,9 @@ var articleone={
             </p>'
 };
 function createTemplate(data){
+    vat title=data.title;
+    var content=data.content;
+    
 var htmltemplate='
 
 <html>
