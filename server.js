@@ -37,7 +37,9 @@ var htmltemplate='
             <a href="/">Home</a>
         </div>
         <hr/>
-        <div>ARTICLE-ONE</div>
+        <div>
+        ${heading}
+        </div>
         <div>
             
              
