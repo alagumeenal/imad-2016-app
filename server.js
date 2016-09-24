@@ -38,15 +38,7 @@ var htmltemplate='
         <hr/>
         <div>ARTICLE-ONE</div>
         <div>
-            <p>
-                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
-            </p>
-             <p>
-                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
-            </p>
-              <p>
-                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
-            </p>
+            
              
         </div>
         </div>
