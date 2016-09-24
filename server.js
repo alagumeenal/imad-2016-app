@@ -38,10 +38,10 @@ var htmltemplate='
         </div>
         <hr/>
         <div>
-        ${heading}
+        
         </div>
         <div>
-            
+           ${content} 
              
         </div>
         </div>
