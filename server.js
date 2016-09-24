@@ -16,7 +16,9 @@ var articleone={
           <p>
                 This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
             </p>'
-}
+};
+var htmltemplate='
+';
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
