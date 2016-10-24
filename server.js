@@ -1,72 +1,22 @@
 var express = require('express');
 var morgan = require('morgan');
-var path = require('path');
-
-var app = express();
-app.use(morgan('combined'));
-var articleone={
-    title: 'Article one I ALAGUMEENAL'
-    heading:'article-one'
-    content: <p>
-                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
-           </p>
-             <p>
-                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
-            </p>
-          <p>
-                This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one. This content display article one.
-            </p>'
+var Pool = require('pg').Pool;
+var config = {
+  host: 'db.cloud.imad.hasura.io',
+  user: 'alagumeenal',
+  port:'5432'
+  password:process.env.DB_PASSWORD,
+  database: 'alagumeenal',
 };
-function createTemplate(data){
-    vat title=data.title;
-    var content=data.content;
-    
-var htmltemplate='
 
-<html>
-    <head>
-        <title>
-            ${title}
-            
-        </title>
-            <meta name="viewport" content="width-device-width,initial-scale=1"/>
-            <link href="/ui/style.css" rel="stylesheet" />
-            <style>
-           
-            </style>
-     </head>
-    <body>
-        <div class="container">
-        <div>
-            <a href="/">Home</a>
-        </div>
-        <hr/>
-        <div>
-        
-        </div>
-        <div>
-           ${content} 
-             
-        </div>
-        </div>
-     </body>
-</html>
-
-';
-return htmltemplate;
-}
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one', function (req, res) {
-  res.send(createTemplate(articleone));
-});
-app.get('/article-two', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
-});
-app.get('/article-three', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
+app.get('/test-db',function(req,res)
+{
+ //make a select request
+ //return response
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
